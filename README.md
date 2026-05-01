@@ -1,4 +1,15 @@
 # Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer- 
+
+## ⚠️ Usage Notice
+
+This project is created for academic and portfolio purposes.
+
+You are free to refer to this work, but:
+- Proper credit must be given
+- Direct copying or submission as your own work is strictly discouraged
+
+Unauthorized use without attribution may be considered academic misconduct. 
+
 ## Binding & Beyond: Molecular Docking of Gefitinib with EGFR
 
 ## 🧬 Project Overview
