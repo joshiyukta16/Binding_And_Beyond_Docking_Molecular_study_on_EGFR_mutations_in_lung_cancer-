@@ -5,7 +5,8 @@
 This project is created for my academic and portfolio purposes.
 
 You are free to refer to this work, but: 
-- Unauthorized use without attribution may be considered academic misconduct. 
+- Direct copying or submission as your own work is strictly discouraged 
+- Unauthorized use without attribution will be considered academic misconduct. 
 
 ## Binding & Beyond: Molecular Docking of Gefitinib with EGFR
 
