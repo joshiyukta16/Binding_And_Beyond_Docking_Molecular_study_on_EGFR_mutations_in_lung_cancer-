@@ -124,3 +124,11 @@ EGFR-Gefitinib-Docking/
 
 Yukta Joshi  
 Bioinformatics | Computational Biology | AI in Healthcare 
+
+🙏 Acknowledgment
+
+Data provided by PDB And PubChem database. 
+
+⭐ If you like this project, give it a star!! 
+
+
