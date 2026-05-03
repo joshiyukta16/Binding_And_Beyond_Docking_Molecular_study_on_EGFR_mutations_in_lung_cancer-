@@ -49,9 +49,16 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 ### 1. Receptor Preparation
 - Downloaded EGFR structures from PDB
 - Removed water molecules and unwanted chains
+
+<img width="886" height="479" alt="image" src="https://github.com/user-attachments/assets/1f70a17d-1770-4788-8d0a-826eaf1fca39" />
+  
 - Added hydrogen atoms
+  
+<img width="912" height="510" alt="image" src="https://github.com/user-attachments/assets/f1d9cb07-745f-44c9-b286-e10cc17bdc92" />
+
 - Converted to `.pdbqt` format
-  ![Open Babel](Open_Babel.png) 
+
+   ![Open Babel](Open_Babel.png) 
 
 ### 2. Ligand Preparation
 - Downloaded Gefitinib from PubChem
