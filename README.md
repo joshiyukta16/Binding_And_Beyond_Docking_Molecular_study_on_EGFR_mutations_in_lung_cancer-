@@ -38,9 +38,9 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 - Protein Data Bank (PDB)
 - PubChem
 - PyRx (AutoDock Vina)
-- PyMOL
-- UCSF Chimera
 - AutoDock Tools
+- Open Babel 
+- PyMOL
 
 ---
 
@@ -51,6 +51,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 - Removed water molecules and unwanted chains
 - Added hydrogen atoms
 - Converted to `.pdbqt` format
+  ![Open Babel](PyMOL.jpg) 
 
 ### 2. Ligand Preparation
 - Downloaded Gefitinib from PubChem
