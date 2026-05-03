@@ -62,13 +62,19 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 ### 2. Ligand Preparation
 - Downloaded Gefitinib from PubChem
+
+<img width="940" height="388" alt="image" src="https://github.com/user-attachments/assets/caa1cd19-7766-4c5a-b115-c3c4891d3e8c" />
+
 - Converted SDF → PDB → PDBQT
 - Energy minimization performed
 
-### 3. Docking (PyRx)
+### 3. Docking (PyRx) 
 - Loaded receptor and ligand
-- Defined grid box around active site
-- Performed docking using AutoDock Vina
+
+<img width="343" height="298" alt="image" src="https://github.com/user-attachments/assets/91cb3d7b-b4ac-4aab-8e45-c0d0e2fc6101" /> 
+
+- Defined grid box around active site 
+- Performed docking using AutoDock Vina 
 
 ### 4. Analysis
 - Selected best pose (Mode 0)
