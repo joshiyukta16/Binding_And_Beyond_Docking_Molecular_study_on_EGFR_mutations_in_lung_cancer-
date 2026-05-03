@@ -90,6 +90,13 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 ### Best Docked Pose (Mutant)
 ![Mutant](PyMOL.jpg) 
 
+### Color Coding for Clarity:
+To differentiate interaction types:
+- Hydrogen bonds → yellow dashed lines
+-	Hydrophobic residues → green or grey surface
+-	Aromatic/π-interactions → magenta sticks 
+
+
 ---
 
 ## 📁 Project Structure 
