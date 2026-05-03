@@ -1,4 +1,4 @@
-📊 Docking Results Summary 
+# 📊 Docking Results Summary 
 
 | Receptor Type | PDB ID | Binding Affinity (kcal/mol) | Key Interacting Residues Found | Type of Interactions | Interpretation |
 |--------------|--------|-----------------------------|---------------------------|----------------------|----------------|
