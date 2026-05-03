@@ -71,7 +71,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 ### 3. Docking (PyRx) 
 - Loaded receptor and ligand
 
-<img width="445" height="400" alt="image" src="https://github.com/user-attachments/assets/91cb3d7b-b4ac-4aab-8e45-c0d0e2fc6101" /> 
+<img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/91cb3d7b-b4ac-4aab-8e45-c0d0e2fc6101" /> 
 
 - Defined grid box around active site 
 - Performed docking using AutoDock Vina 
