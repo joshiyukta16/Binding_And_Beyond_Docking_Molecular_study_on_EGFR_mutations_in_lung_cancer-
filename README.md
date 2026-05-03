@@ -50,11 +50,11 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 - Downloaded EGFR structures from PDB
 - Removed water molecules and unwanted chains
 
-<img width="886" height="479" alt="image" src="https://github.com/user-attachments/assets/1f70a17d-1770-4788-8d0a-826eaf1fca39" />
+<img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/1f70a17d-1770-4788-8d0a-826eaf1fca39" />
   
 - Added hydrogen atoms
   
-<img width="912" height="510" alt="image" src="https://github.com/user-attachments/assets/f1d9cb07-745f-44c9-b286-e10cc17bdc92" />
+<img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/f1d9cb07-745f-44c9-b286-e10cc17bdc92" />
 
 - Converted to `.pdbqt` format
 
@@ -63,7 +63,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 ### 2. Ligand Preparation
 - Downloaded Gefitinib from PubChem
 
-<img width="940" height="388" alt="image" src="https://github.com/user-attachments/assets/caa1cd19-7766-4c5a-b115-c3c4891d3e8c" />
+<img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/caa1cd19-7766-4c5a-b115-c3c4891d3e8c" />
 
 - Converted SDF → PDB → PDBQT
 - Energy minimization performed
