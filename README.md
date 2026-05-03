@@ -75,7 +75,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 - Defined grid box around active site
   
-<img width="940" height="478" alt="image" src="https://github.com/user-attachments/assets/6726e0bd-9b3b-423c-b819-38105453dcac" /> 
+<img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/6726e0bd-9b3b-423c-b819-38105453dcac" /> 
   
 - Performed docking using AutoDock Vina 
 
@@ -110,7 +110,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 ### Best Docked Pose (Wild) 
 
-
+![Wild](PyMOL_Surface_Level.jpg) 
 
 ### Color Coding for Clarity:
 To differentiate interaction types:
