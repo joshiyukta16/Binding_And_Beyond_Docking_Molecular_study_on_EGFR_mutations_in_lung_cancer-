@@ -51,7 +51,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 - Removed water molecules and unwanted chains
 - Added hydrogen atoms
 - Converted to `.pdbqt` format
-  ![Open Babel](PyMOL.jpg) 
+  ![Open Babel](Open_Babel.png) 
 
 ### 2. Ligand Preparation
 - Downloaded Gefitinib from PubChem
