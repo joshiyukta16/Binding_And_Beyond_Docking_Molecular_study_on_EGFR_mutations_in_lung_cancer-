@@ -88,7 +88,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 ## 🧪 Visualization
 
 ### Best Docked Pose (Mutant)
-![Mutant](figures/PyMOL.jpg) 
+![Mutant](PyMOL.jpg) 
 
 ---
 
