@@ -87,9 +87,6 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 ## 🧪 Visualization
 
-### Best Docked Pose (Wild-type)
-![Wild-type](figures/wildtype_pose.png)
-
 ### Best Docked Pose (Mutant)
 ![Mutant](figures/mutant_pose.png)
 
