@@ -19,7 +19,7 @@ This project focuses on studying the interaction between Epidermal Growth Factor
 EGFR plays a critical role in non-small cell lung cancer (NSCLC). Mutations in EGFR alter drug binding efficiency, making it essential to study ligand-receptor interactions computationally.
 
 Molecular docking was performed using PyRx, and visualization was carried out using PyMOL and Chimera.
-- *Project Report*- Molecular_Study_Lung_Cancer_Project_GitHub.pdf 
+- ![Project Report](Molecular_Study_Lung_Cancer_Project_GitHub.pdf)  
 ---
 
 ## 🎯 Objectives
