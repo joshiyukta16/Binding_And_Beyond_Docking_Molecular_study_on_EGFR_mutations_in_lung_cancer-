@@ -4,12 +4,8 @@
 
 This project is created for my academic and portfolio purposes.
 
-You are free to refer to this work, but: 
-- Direct copying or submission as your own work is strictly discouraged 
-- Unauthorized use without attribution will be considered academic misconduct. 
-
 ## 📄 License
-This project is licensed under the CC BY-NC 4.0 License.
+This project is licensed under the CC BY-NC 4.0 License. 
 
 ## Binding & Beyond: Molecular Docking of Gefitinib with EGFR
 
