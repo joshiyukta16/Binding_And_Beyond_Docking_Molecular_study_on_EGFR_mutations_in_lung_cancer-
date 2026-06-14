@@ -16,9 +16,7 @@ EGFR plays a critical role in non-small cell lung cancer (NSCLC). Mutations in E
 
 Molecular docking was performed using PyRx, and visualization was carried out using PyMOL and Chimera. 
 
-- ![Project Report](Molecular_Study_Lung_Cancer_Project_GitHub.pdf) 
-
----
+--- 
 
 ## 🎯 Objectives
 
@@ -156,6 +154,5 @@ Bioinformatics | Computational Biology | AI in Healthcare
 
 Data provided by PDB And PubChem database. 
 
-⭐ If you like this project, give it a star!! 
-
+⭐ If you like this project, give it a star!!  
 
