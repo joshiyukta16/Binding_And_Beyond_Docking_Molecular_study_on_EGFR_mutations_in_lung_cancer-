@@ -2,7 +2,7 @@
 
 ## ⚠️ Usage Notice
 
-This project is created for my academic and portfolio purposes.
+This project is created for my academic and portfolio purposes, the content usage is liscensed and needs to be credited. 
 
 ## 📄 License
 This project is licensed under the CC BY-NC 4.0 License. 
