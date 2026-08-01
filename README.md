@@ -1,7 +1,7 @@
 # Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer- 
 
 ## 📄 License 
-This repository has been created for academic and portfolio purposes. 
+This repository has been created for academic and portfolio purposes. Commercial use is not permitted.  
 The project report, documentation, figures, and other original content are licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** License. 
 
 --- 
