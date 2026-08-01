@@ -119,6 +119,7 @@ To differentiate interaction types:
 
 ## 📁 Project Structure 
 
+```text
 📁 Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer
 │
 ├── 📄 README.md
@@ -130,7 +131,7 @@ To differentiate interaction types:
 ├── 🖼️ Open_Babel.png
 ├── 🖼️ PyMOL.jpg
 └── 🖼️ PyMOL_Surface_Level.jpg
-
+``` 
 --- 
 ## 🎥 Project Report 
 
