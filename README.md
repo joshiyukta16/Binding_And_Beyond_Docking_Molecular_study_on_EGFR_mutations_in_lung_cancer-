@@ -4,6 +4,8 @@
 This repository has been created for academic and portfolio purposes. Commercial use is not permitted.  
 The project report, documentation, figures, and other original content are licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** License. 
 
+See the [LICENSE](LICENSE) file for the complete license terms.
+
 --- 
 
 ## Binding & Beyond: Molecular Docking of Gefitinib with EGFR
