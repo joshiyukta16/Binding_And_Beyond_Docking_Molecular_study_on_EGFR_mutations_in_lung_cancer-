@@ -1,4 +1,4 @@
-# Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer- 
+# Binding And Beyond Docking Molecular study on EGFR mutations in lung cancer-  
 
 ## 📄 License 
 This repository has been created for academic and portfolio purposes. Commercial use is not permitted.  
