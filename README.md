@@ -118,14 +118,18 @@ To differentiate interaction types:
 ---
 
 ## 📁 Project Structure 
-EGFR-Gefitinib-Docking/
-│
-├── README.md
-├── docs/
-├── figures/
-├── results/
-├── data/ 
 
+📁 Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer
+│
+├── 📄 README.md
+├── 📄 LICENSE
+├── 📘 Project_Report_BI.pdf
+├── 📑 Methodology.md
+├── 📊 results-summary.md
+├── 🧪 Lung_Cancer_Molecular_Docking.pdf
+├── 🖼️ Open_Babel.png
+├── 🖼️ PyMOL.jpg
+└── 🖼️ PyMOL_Surface_Level.jpg
 
 --- 
 ## 🎥 Project Report 
