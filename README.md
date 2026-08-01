@@ -132,7 +132,7 @@ EGFR-Gefitinib-Docking/
 
 A detailed Project Report showcasing Methodology and Results is available in this repository.
 
-**Project Report:** `Project_Report_BI .pdf`
+**Project Report:** [Project_Report_BI_.pdf](Project_Report_BI_.pdf) 
 
 ## 📌 Key Learnings
 
