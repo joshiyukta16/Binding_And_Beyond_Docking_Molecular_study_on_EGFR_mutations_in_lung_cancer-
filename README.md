@@ -127,7 +127,12 @@ EGFR-Gefitinib-Docking/
 ├── data/ 
 
 
----
+--- 
+## 🎥 Project Report 
+
+A detailed Project Report showcasing Methodology and Results is available in this repository.
+
+**Project Report:** `pipeline_demo.mp4`
 
 ## 📌 Key Learnings
 
