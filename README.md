@@ -1,8 +1,10 @@
 # Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer- 
 
 ## 📄 License 
-This project is created for my academic and portfolio purposes, the direct usage of the content is liscensed. 
-This project is licensed under the CC BY-NC 4.0 License. 
+This repository has been created for academic and portfolio purposes. 
+The project report, documentation, figures, and other original content are licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** License. 
+
+--- 
 
 ## Binding & Beyond: Molecular Docking of Gefitinib with EGFR
 
