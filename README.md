@@ -31,53 +31,45 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 --- 
 
+```mermaid
 flowchart TD
 
-A[Target Selection<br>EGFR] 
---> B[Protein Retrieval<br>PDB]
+A[Target Selection EGFR]
+--> B[Protein Retrieval PDB]
 
-B --> C[Ligand Retrieval<br>PubChem]
+B --> C[Ligand Retrieval PubChem]
 
-C --> D[Molecular Descriptor Analysis<br>RDKit<br><br>
-• Molecular Weight<br>
-• LogP<br>
-• TPSA<br>
-• H-Bond Donors<br>
-• H-Bond Acceptors<br>
-• Rotatable Bonds<br>
-• Ring Count<br>
-• Heavy Atom Count<br>
-• Fraction Csp3]
+C --> D[Ligand Preparation]
 
-D --> E[Drug-Likeness Assessment<br>Lipinski's Rule of Five]
+D --> E[Molecular Descriptor Analysis RDKit<br>
+Molecular Weight<br>
+LogP<br>
+TPSA<br>
+H-Bond Donors<br>
+H-Bond Acceptors<br>
+Rotatable Bonds<br>
+Ring Count<br>
+Heavy Atom Count<br>
+Fraction Csp3]
 
-E --> F[Ligand Preparation<br>
-• SDF → PDB/PDBQT<br>
-• Energy Minimization]
+E --> F[Drug-Likeness Assessment<br>
+Lipinski's Rule of Five]
 
-F --> G[Receptor Preparation<br>
-• Remove Water<br>
-• Remove Unwanted Chains<br>
-• Add Hydrogens<br>
-• Convert to PDBQT]
+F --> G[Receptor Preparation]
 
-G --> H[Molecular Docking<br>PyRx / AutoDock Vina]
+G --> H[Molecular Docking<br>
+PyRx / AutoDock Vina]
 
-H --> I[Binding Affinity Analysis<br>
-• Binding Energy<br>
-• RMSD Values]
+H --> I[Binding Affinity Analysis]
 
-I --> J[Protein-Ligand Interaction Analysis<br>
-• Hydrogen Bonds<br>
-• Hydrophobic Interactions<br>
-• Key Residues]
+I --> J[Protein-Ligand Interaction Analysis]
 
 J --> K[Molecular Visualization<br>
-• PyMOL<br>
-• UCSF Chimera]
+PyMOL<br>
+UCSF Chimera]
 
-K --> L[Result Interpretation & Conclusion<br>
-EGFR Mutation Effect on Gefitinib Binding] 
+K --> L[Result Interpretation & Conclusion]
+```
 
 --- 
 
