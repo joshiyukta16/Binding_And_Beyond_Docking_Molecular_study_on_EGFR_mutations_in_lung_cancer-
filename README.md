@@ -142,7 +142,7 @@ The 2D structure of Gefitinib was generated using RDKit and saved as an image.
 
 <img src="RDKit/Output/Gefitinib_2D.png" alt="Gefitinib 2D Structure" width="599"/> 
 
-Image: ![Gefitinib 2D Structure](RDKit/Output/Gefitinib_2D.png) 
+The generated RDKit 2D structure image is available here: [Gefitinib_2D.png](RDKit/Output/Gefitinib_2D.png) 
 
 ### 4. Docking (PyRx) 
 - Loaded receptor and ligand
