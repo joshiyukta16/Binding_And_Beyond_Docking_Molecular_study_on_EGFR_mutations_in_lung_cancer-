@@ -34,6 +34,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 - Protein Data Bank (PDB)
 - PubChem
+- RDKit 
 - PyRx (AutoDock Vina)
 - AutoDock Tools
 - Open Babel 
@@ -63,9 +64,39 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 <img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/caa1cd19-7766-4c5a-b115-c3c4891d3e8c" />
 
 - Converted SDF → PDB → PDBQT
-- Energy minimization performed
+- Energy minimization performed 
 
-### 3. Docking (PyRx) 
+### 3. Molecular Descriptor Analysis (RDKit)
+
+The Gefitinib ligand structure was retrieved from PubChem in **SDF format** and analyzed using **RDKit**.
+
+RDKit was used to generate the 2D molecular structure and calculate important molecular descriptors.
+
+### 2D Structure Generation
+
+The 2D molecular structure of Gefitinib was generated using RDKit from the SDF file.
+
+<img src="RDKit/Output/Gefitinib_2D.png" alt="Gefitinib 2D Structure" width="599"/>
+
+### Molecular Descriptor Calculation
+
+The following molecular descriptors were calculated using RDKit:
+
+- Molecular Weight
+- LogP (Lipophilicity)
+- Topological Polar Surface Area (TPSA)
+- Hydrogen Bond Donors
+- Hydrogen Bond Acceptors
+- Rotatable Bonds
+- Ring Count
+- Heavy Atom Count
+- Fraction Csp3
+
+The complete RDKit descriptor output is available:
+
+📄 [Gefitinib_Descriptors.csv](RDKit/Output/Gefitinib_Descriptors.csv)
+
+### 4. Docking (PyRx) 
 - Loaded receptor and ligand
 
 <img width="599" height="400" alt="image" src="https://github.com/user-attachments/assets/91cb3d7b-b4ac-4aab-8e45-c0d0e2fc6101" /> 
@@ -76,12 +107,12 @@ Molecular docking was performed using PyRx, and visualization was carried out us
   
 - Performed docking using AutoDock Vina 
 
-### 4. Analysis
+### 5. Analysis
 - Selected best pose (Mode 0)
 - Evaluated:
   - Binding affinity (kcal/mol)
   - RMSD values
-- Visualized interactions using PyMOL
+- Visualized interactions using PyMOL 
 
 ---
 
