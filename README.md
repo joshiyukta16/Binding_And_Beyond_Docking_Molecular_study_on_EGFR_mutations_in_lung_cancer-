@@ -68,33 +68,77 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 ### 3. Molecular Descriptor Analysis (RDKit)
 
-The Gefitinib ligand structure was retrieved from PubChem in **SDF format** and analyzed using **RDKit**.
+The Gefitinib ligand structure was retrieved from PubChem in **SDF format** and analyzed using **RDKit**, an open-source cheminformatics library.
 
-RDKit was used to generate the 2D molecular structure and calculate important molecular descriptors.
+The molecule was loaded using RDKit's `Chem.SDMolSupplier()` function, followed by molecular descriptor calculation, drug-likeness evaluation, molecular fingerprint generation, and 2D structure visualization.
 
-### 2D Structure Generation
+📘 [RDKit Analysis Notebook](RDKit/Gefitinib_RDKit.ipynb) 
 
-The 2D molecular structure of Gefitinib was generated using RDKit from the SDF file.
+### RDKit Molecular Descriptor Calculation
 
-<img src="RDKit/Output/Gefitinib_2D.png" alt="Gefitinib 2D Structure" width="599"/>
-
-### Molecular Descriptor Calculation
-
-The following molecular descriptors were calculated using RDKit:
+The following molecular descriptors were calculated:
 
 - Molecular Weight
 - LogP (Lipophilicity)
 - Topological Polar Surface Area (TPSA)
-- Hydrogen Bond Donors
-- Hydrogen Bond Acceptors
+- Hydrogen Bond Donors (HBD)
+- Hydrogen Bond Acceptors (HBA)
 - Rotatable Bonds
 - Ring Count
 - Heavy Atom Count
 - Fraction Csp3
 
-The complete RDKit descriptor output is available:
 
-📄 [Gefitinib_Descriptors.csv](./RDKit/Gefitinib_Descriptors.csv) 
+### RDKit Descriptor Results
+
+| Descriptor | Value |
+|------------|-------|
+| Molecular Weight (Da) | 446.91 |
+| LogP | 4.28 |
+| TPSA (Å²) | 68.74 |
+| Hydrogen Bond Donors | 1 |
+| Hydrogen Bond Acceptors | 7 |
+| Rotatable Bonds | 8 |
+| Ring Count | 4 |
+| Heavy Atom Count | 31 |
+| Fraction Csp3 | 0.36 |
+
+
+The complete descriptor output generated using RDKit is available:
+
+📄 [Gefitinib_Descriptors.csv](RDKit/Gefitinib_Descriptors.csv)
+
+
+### Lipinski's Rule of Five Assessment
+
+The calculated descriptors were evaluated using Lipinski's Rule of Five:
+
+| Parameter | Gefitinib Value | Rule | Result |
+|-----------|----------------|------|--------|
+| Molecular Weight | 446.91 Da | < 500 Da | Pass |
+| LogP | 4.28 | < 5 | Pass |
+| H-Bond Donors | 1 | ≤ 5 | Pass |
+| H-Bond Acceptors | 7 | ≤ 10 | Pass |
+
+
+Gefitinib satisfies all Lipinski criteria, indicating favorable drug-like properties.
+
+
+### Molecular Fingerprint Generation
+
+Morgan fingerprints were generated using RDKit to represent the molecular structure as a binary fingerprint vector.
+
+The fingerprint representation can be used for:
+- Molecular similarity analysis
+- Chemical clustering
+- Machine learning applications
+
+
+### 2D Molecular Structure Visualization
+
+The 2D structure of Gefitinib was generated using RDKit and saved as an image.
+
+<img src="RDKit/Output/Gefitinib_2D.png" alt="Gefitinib 2D Structure" width="599"/>
 
 ### 4. Docking (PyRx) 
 - Loaded receptor and ligand
