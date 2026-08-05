@@ -44,6 +44,46 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 ---
 
+## Project Repository Structure 
+
+📁  Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer
+│
+├── 📄 README.md
+├── 📄 LICENSE
+│
+├── 📘 Project_Report_BI.pdf
+├── 📑 Methodology.md
+├── 📊 results-summary.md
+├── 🧪 Lung_Cancer_Molecular_Docking.pdf
+│
+├── 📁 RDKit
+│   │
+│   ├── 📘 Gefitinib_RDKit.ipynb
+│   │      └── Complete RDKit workflow:
+│   │          - SDF file loading
+│   │          - Molecular descriptor calculation
+│   │          - Lipinski Rule of Five
+│   │          - Morgan fingerprint generation
+│   │          - CSV export
+│   │          - 2D structure generation
+│   │
+│   ├── 📁 data
+│   │   └── 🧬 Gefitinib.sdf
+│   │          └── PubChem ligand input file
+│   │
+│   ├── 🧾 Gefitinib_Descriptors.csv
+│   │          └── RDKit calculated molecular properties
+│   │
+│   └── 📁 Output
+│       └── 🖼️ Gefitinib_2D.png
+│              └── RDKit generated 2D molecular structure
+│
+├── 🖼️ Open_Babel.png
+├── 🖼️ PyMOL.jpg
+└── 🖼️ PyMOL_Surface_Level.jpg 
+
+--- 
+
 ## ⚙️ Methodology
 
 ### 1. Receptor Preparation
@@ -197,22 +237,6 @@ To differentiate interaction types:
 
 ---
 
-## 📁 Project Structure 
-
-```text
-📁 Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer
-│
-├── 📄 README.md
-├── 📄 LICENSE
-├── 📘 Project_Report_BI.pdf
-├── 📑 Methodology.md
-├── 📊 results-summary.md
-├── 🧪 Lung_Cancer_Molecular_Docking.pdf
-├── 🖼️ Open_Babel.png
-├── 🖼️ PyMOL.jpg
-└── 🖼️ PyMOL_Surface_Level.jpg
-``` 
---- 
 ## 🎥 Project Report 
 
 A detailed Project Report showcasing Methodology and Results is available in this repository.
