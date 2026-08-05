@@ -23,12 +23,63 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 - Retrieve EGFR protein structures (wild-type and mutant)
 - Prepare receptor and ligand structures
+- Perform The Descriptor Calculations using RDKit 
 - Perform molecular docking using PyRx
 - Analyze binding affinity and RMSD
 - Visualize ligand-receptor interactions
 - Compare wild-type and mutant EGFR binding
 
----
+--- 
+
+flowchart TD
+
+A[Target Selection<br>EGFR] 
+--> B[Protein Retrieval<br>PDB]
+
+B --> C[Ligand Retrieval<br>PubChem]
+
+C --> D[Molecular Descriptor Analysis<br>RDKit<br><br>
+• Molecular Weight<br>
+• LogP<br>
+• TPSA<br>
+• H-Bond Donors<br>
+• H-Bond Acceptors<br>
+• Rotatable Bonds<br>
+• Ring Count<br>
+• Heavy Atom Count<br>
+• Fraction Csp3]
+
+D --> E[Drug-Likeness Assessment<br>Lipinski's Rule of Five]
+
+E --> F[Ligand Preparation<br>
+• SDF → PDB/PDBQT<br>
+• Energy Minimization]
+
+F --> G[Receptor Preparation<br>
+• Remove Water<br>
+• Remove Unwanted Chains<br>
+• Add Hydrogens<br>
+• Convert to PDBQT]
+
+G --> H[Molecular Docking<br>PyRx / AutoDock Vina]
+
+H --> I[Binding Affinity Analysis<br>
+• Binding Energy<br>
+• RMSD Values]
+
+I --> J[Protein-Ligand Interaction Analysis<br>
+• Hydrogen Bonds<br>
+• Hydrophobic Interactions<br>
+• Key Residues]
+
+J --> K[Molecular Visualization<br>
+• PyMOL<br>
+• UCSF Chimera]
+
+K --> L[Result Interpretation & Conclusion<br>
+EGFR Mutation Effect on Gefitinib Binding] 
+
+--- 
 
 ## 🛠️ Tools & Software Used
 
