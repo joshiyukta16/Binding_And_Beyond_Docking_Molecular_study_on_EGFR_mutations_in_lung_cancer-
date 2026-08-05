@@ -34,11 +34,13 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 - Protein Data Bank (PDB)
 - PubChem
-- RDKit 
+- RDKit
+- Python
+- VS Codes  
 - PyRx (AutoDock Vina)
 - AutoDock Tools
 - Open Babel 
-- PyMOL
+- PyMOL 
 
 ---
 
@@ -72,7 +74,7 @@ The Gefitinib ligand structure was retrieved from PubChem in **SDF format** and 
 
 The molecule was loaded using RDKit's `Chem.SDMolSupplier()` function, followed by molecular descriptor calculation, drug-likeness evaluation, molecular fingerprint generation, and 2D structure visualization.
 
-📘 [RDKit Analysis Notebook](RDKit/Gefitinib_RDKit.ipynb) 
+📘 [RDKit Analysis Notebook](RDKit/Gefitnib_RDKit.ipynb)  
 
 ### RDKit Molecular Descriptor Calculation
 
