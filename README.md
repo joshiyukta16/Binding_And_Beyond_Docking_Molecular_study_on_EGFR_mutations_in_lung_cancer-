@@ -46,6 +46,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 
 ## Project Repository Structure 
 
+''' 
 📁  Binding_And_Beyond_Docking_Molecular_study_on_EGFR_mutations_in_lung_cancer
 │
 ├── 📄 README.md
@@ -82,6 +83,7 @@ Molecular docking was performed using PyRx, and visualization was carried out us
 ├── 🖼️ PyMOL.jpg
 └── 🖼️ PyMOL_Surface_Level.jpg 
 
+''' 
 --- 
 
 ## ⚙️ Methodology
