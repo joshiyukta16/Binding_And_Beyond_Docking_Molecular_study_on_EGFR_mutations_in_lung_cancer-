@@ -94,7 +94,7 @@ The following molecular descriptors were calculated using RDKit:
 
 The complete RDKit descriptor output is available:
 
-📄 [Gefitinib_Descriptors.csv](RDKit/Output/Gefitinib_Descriptors.csv)
+📄 [Gefitinib_Descriptors.csv](./RDKit/Gefitinib_Descriptors.csv) 
 
 ### 4. Docking (PyRx) 
 - Loaded receptor and ligand
