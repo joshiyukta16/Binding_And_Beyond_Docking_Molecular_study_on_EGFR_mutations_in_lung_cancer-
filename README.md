@@ -11,11 +11,13 @@ See the [LICENSE](LICENSE) file for the complete license terms.
 ## Binding & Beyond: Molecular Docking of Gefitinib with EGFR
 
 ## 🧬 Project Overview
-This project focuses on studying the interaction between Epidermal Growth Factor Receptor (EGFR) and the anticancer drug Gefitinib using molecular docking.
+This project focuses on studying the interaction between Epidermal Growth Factor Receptor (EGFR) and the anticancer drug Gefitinib using computational approaches, including molecular descriptor analysis and molecular docking. 
 
-EGFR plays a critical role in non-small cell lung cancer (NSCLC). Mutations in EGFR alter drug binding efficiency, making it essential to study ligand-receptor interactions computationally.
+EGFR plays a critical role in non-small cell lung cancer (NSCLC). Mutations in EGFR can alter drug-binding behavior and influence therapeutic response, making it important to study ligand–receptor interactions computationally. 
 
-Molecular docking was performed using PyRx, and visualization was carried out using PyMOL and Chimera. 
+Gefitinib was analyzed using RDKit to evaluate its molecular descriptors and drug-like properties based on Lipinski's Rule of Five. Molecular docking was performed using PyRx (AutoDock Vina) to predict binding affinity between Gefitinib and EGFR structures. 
+
+Protein–ligand interactions were analyzed and visualized using PyMOL and UCSF Chimera. 
 
 --- 
 
